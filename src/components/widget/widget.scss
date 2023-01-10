@@ -1,0 +1,17 @@
+.widget {
+    flex: 0.15;
+    margin: 1rem;
+    border: .3px solid rgba(128, 128, 128, 0.341);
+    border-radius: 10px;
+    background-color: white;
+    height: max-content;
+    padding: 1rem;
+
+
+}
+
+.news {
+    margin-top: 10px;
+    display: flex;
+    gap: .5rem;
+}

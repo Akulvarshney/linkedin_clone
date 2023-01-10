@@ -1,0 +1,88 @@
+.sidebar {
+    flex: 0.15;
+    margin: 1rem;
+
+
+    p {
+        font-size: x-small;
+        color: gray;
+        margin: 5px 5px;
+    }
+
+    .home_user {
+        height: max-content;
+        display: flex;
+        border: .3px solid rgba(128, 128, 128, 0.341);
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: -25px;
+        }
+
+        .home_user_avatar {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 1rem;
+        }
+
+        .user_header {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: .5px solid rgba(128, 128, 128, 0.341);
+        }
+
+        .home_userStats {
+            width: 100%;
+            padding: 10px 0;
+            font-size: x-small;
+            border-bottom: .5px solid rgba(128, 128, 128, 0.341);
+
+            .home_userStat {
+                display: flex;
+                justify-content: space-between;
+
+                .home_userStatNumber {
+                    font-weight: bold;
+                    color: #0a66c2;
+                }
+            }
+        }
+
+        .home_buyPremium {
+            width: 100%;
+            text-align: left;
+        }
+    }
+
+    .home_recent {
+        width: 100%;
+        margin: .5rem 0;
+        height: max-content;
+        border: .3px solid rgba(128, 128, 128, 0.341);
+        border-radius: 10px;
+        background-color: white;
+    }
+
+}
+
+.recent_Item {
+    cursor: pointer;
+    display: flex;
+    padding: 0 10px;
+    gap: 5px;
+    align-items: center;
+    font-size: x-small;
+
+    &:hover {
+        font-weight: bold;
+
+        p {
+            color: black !important;
+        }
+    }
+}
